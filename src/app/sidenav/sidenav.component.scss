@@ -1,0 +1,162 @@
+.navbar{
+    width: 100%;
+    height: 3.5rem;
+    margin-left: 0;
+    padding-top: 0px;
+}
+
+.sidenav {
+    background: #26769e;
+    transition: all .5s ease;
+    position: inherit !important;
+    z-index: 100;
+    margin-left: 1;
+    margin-right: 10px;
+    width: 5rem;
+    height: 100vh;
+    padding-left: auto;
+    
+
+    .logo-container {
+        display: flex;
+        align-items: center;
+        
+        padding: 0.938rem 0.938rem 0 0.938rem;
+        width: 100%;
+
+        .logo {
+            background: #fff;
+            text-align: center;
+            width: 3rem;
+            min-width: 3rem;
+            border-radius: 0.313rem;
+            padding: 0.313rem;
+            font-size: 24px;
+            font-weight: 900;
+            cursor: pointer;
+            border: none;
+        }
+        
+        .logo-text {
+            margin-left: 1.5rem;
+            font-size: 24px;
+            font-weight: 700;
+            color: #fff;
+        }
+
+        .btn-close {
+            margin-left: auto;
+            cursor: pointer;
+            width: 2rem;
+            height: 2rem;
+            border-radius: 50%;
+            background-color: transparent;
+            border: none;
+
+            .fa-times {
+                color: #fff;
+                font-size: 24px;
+                
+            }
+        }
+    }
+}
+
+.sidenav-collapsed {
+    width: 16.5625rem;
+}
+
+.sidenav-nav {
+    list-style: none;
+    padding: 0.813rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: calc(100% - 3.65rem);
+    cursor: pointer;
+    
+
+    .sidenav-nav-item {
+        width: 100%;
+        margin-bottom: 0.625rem;
+        color: #f3f3f3;
+      
+
+        .sidenav-nav-link {
+            display: flex;
+            align-items: center;
+            height: 3rem;
+            color: #f3f3f3;
+            text-decoration: none;
+            border-radius: 0.625rem;
+            transition: all .3s ease;
+
+            .sidenav-link-icon {
+                font-size: 25px;
+                width: 3rem;
+                min-width: 3rem;
+                margin: 0 0.0rem;
+                text-align: center;
+                color: white;
+                
+                
+            }
+
+            .sidenav-link-text {
+                margin-left: 1.5rem;
+            }
+        }
+    }
+
+    .sidenav-nav-item:hover {
+        .sidenav-nav-link, .sidenav-link-icon, .sidenav-link-text {
+            
+            color: #000;
+            
+        }
+    }
+}
+
+.active {
+   
+
+    .sidenav-link-icon,
+    .sidenav-link-text {
+        color: #fcf6f6;
+
+        
+    }
+}
+
+@media screen  {
+    .footer{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    left: 0;
+    right: 0;
+    
+    }
+}
+
+
+
+.ftlogo1{
+    height: 45px;
+    width: 50px;
+    margin: 1px;
+    bottom: 30rem;
+    align-items: center;
+
+}
+
+.ftlogo{
+    height: 55px;
+    width: 80px;
+    margin: 1px;
+    bottom: 30rem;
+    align-items: center;
+}
